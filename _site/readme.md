@@ -1,23 +1,49 @@
 #Christ Community Church
 
-Website at [christcommunitychurch.github.io](christcommunitychurch.github.io)
+Basic info: site built on [Jekyll](http://jekyllrb.com), a static site generator and devloped and hosted on Github.
 
-###Jekyll b (build) is not necessary
+Mason is currently the admin of the repository, if you are interested in contributing to the website, please contact Mason at [masonfox22@gmail.com](mailto:masonfox22@gmail.com)
 
-#Editing site prerequisites:
+##Editing site prerequisites:
 1. Speak with Mason Fox and or Chris
 2. Have or set up a github account
 3. Download the Github app, terminal takes learning, so use app
 4. Download [Atom](https://atom.io) Text Editor (It is free and made by Github)
 5. Understand usage of Github so we don't kill the site (will link video here)
 
-#How to use Jekyll:
+##Setting up Jekyll & Site directory:
 
-1. You need a github account to access this repository
-2. Things
-3. More Things
+1. Install Jekyll
+  * Run: ~ $ gem install jekyll (may require sudo on Mac)
+2. Tap the "Clone in Desktop Button"
+  * Save the file as something small, like ccc
+3. Navigate to the directory (I mine in my home folder for easy access)
+  * cd (change directory) into your git file (the one you just cloned)
+  * Type ls to view all of the files
+
+##Using Jekyll & Github:
+
+There only two important Jekyll commands that we have at our disposal: Serve (s) and build (b).
+
+These can be executed by:
+
+> Jekyll (task)
+* i.e s for serve or b build.
+
+ > DO NOT EDIT THE SITE FILE
+
+###Serve or s:
+ This will serve up a local environment for you to view the code. Jekyll's serve will automatically change text changes when a save is executed (this is not the case in styling or yaml file changes)
+
+###Build or b
+Build is used to compile the site directory. Editing the site file and generating the site file with build will overwrite all changes.
+
+##Pull Request
+
+1. Go to git hub app
+2. Commit changes (accurate commit info and summaries please)
+3. Instead of "syncing", please submit a pull request to the master branch (should be default)
 
 ###Other Info
 
 *Please make detailed commits and summaries when working on large portions of code
-*Mason is the admin of this Github repository
