@@ -6,9 +6,22 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 03 Aug 2015 19:01:24 -0400</pubDate>
-    <lastBuildDate>Mon, 03 Aug 2015 19:01:24 -0400</lastBuildDate>
+    <pubDate>Mon, 03 Aug 2015 19:38:20 -0400</pubDate>
+    <lastBuildDate>Mon, 03 Aug 2015 19:38:20 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Baptism this Sunday!</title>
+        <description>&lt;h4&gt;Hello&lt;/h4&gt;
+
+&lt;p&gt;Hey, there is a Baptism this weekend. You should come because you&amp;#39;re awesome!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Aug 2015 06:00:00 -0400</pubDate>
+        <link>/2015/08/03/Baptism-this-Sunday.html</link>
+        <guid isPermaLink="true">/2015/08/03/Baptism-this-Sunday.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Make some sketches</title>
@@ -86,9 +99,7 @@
     
       <item>
         <title>Hello World!</title>
-        <description>&lt;p&gt;Hello World, this is a test of the Jekyll powered capabilities. This is another test for jekyll!&lt;/p&gt;
-
-&lt;p&gt;Woot I&amp;#39;m done!&lt;/p&gt;
+        <description>&lt;p&gt;Hi, my name is Mason and I am helping to build this website. I am a web designer and developer.&lt;/p&gt;
 </description>
         <pubDate>Tue, 14 Apr 2015 06:57:12 -0400</pubDate>
         <link>/2015/04/14/Hello-World!.html</link>

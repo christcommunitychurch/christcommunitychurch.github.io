@@ -4,7 +4,7 @@ title:  Hello World!
 date:   2015-04-14 10:57:12
 images: images/@stock/blog-2.jpg
 excerpt:
-  Iste neque doloribus dolor quis ad sit dolores dolor sit perferendis. nemo in rerum ducimus possimus aspernatur quas est. dolorem eaque vel id quasi voluptatem eligendi rerum et quo ut. fuga qui ea voluptates sunt
+  It has been changed, Hello World!
 ---
 
-Hello World, this is a test of the Jekyll powered capabilities.
+Hi, my name is Mason and I am helping to build this website. I am a web designer and developer.
