@@ -1,15 +1,154 @@
 ---
-layout: sermon-item
-title: Sermon-item
-section_id: sermon-item
+layout: default
+title: Sermons
+section_id: portfolio
 sermon:
   - title: Hello America!
     date: February 1st, 2015
     summary: Test, test
-    soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/217219547&amp;
-    klass: february may
-  - title: Hello World!
+    soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/217310527&amp;
+    klass: april august
+  - title: Hello Church!
     date: February 2nd, 2015
+    klass: september october
     summary: Another test
     soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/217219547&amp;
 ---
+
+
+<div class='full parallax' style='background: #5DA3A1; color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Our Sermons" tagline="Missed a service? Catch up by listening online!" color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+<div class="full">
+  <div class="row">
+    <div class="medium-6 column">
+      <h1><small>Listen Online</small></h1>
+      <p class="text-justify">We hope you take every opportunity to use oline sermons as a resource throughout
+        your day, week, month, and more. We truly believe that words have power and that the body of
+        Christ is strong in these words. Listen and be impowered by the words of our community.</p>
+
+    </div>
+    <div class="medium-6 column">
+      <h1><small>Sermon Cycle</small></h1>
+      <p class="text-justify">To keep connection speedy and more convenient for you, we will
+        move sermons to soundcloud every 3 months. You will be able to view all of the sermons
+        on soundcloud.</p>
+
+      <a href="https://soundcloud.com/christ-community-church-537270380" target="_blank" class="button tiny">Soundcloud</a>
+
+    </div>
+  </div> <!-- end two column -->
+
+  <div class="two spacing"></div> <!-- spacing between -->
+
+  <div class="row">
+    <div class="medium-12 column text-center">
+      <h2><small>Search Below</small></h2>
+      <p>Use the month buttons below to select
+      a sermon from the respective month</p>
+    </div>
+  </div>
+</div> <!-- end full -->
+
+<div class='half'>
+  <div class='row'>
+    <div class='mod modGallery'>
+      <div class='gallery-nav'>
+        <ul>
+          <!-- <li class='current'>
+            <a data-cat='all' href='#'>All</a>
+          </li> -->
+          <li>
+            <a data-cat='january' href='#'>January</a>
+          </li>
+          <li>
+            <a data-cat='february' href='#'>Feburary</a>
+          </li>
+          <li>
+            <a data-cat='march' href='#'>March</a>
+          </li>
+          <li>
+            <a data-cat='april' href='#'>April</a>
+          </li>
+          <li>
+            <a data-cat='may' href='#'>May</a>
+          </li>
+          <li>
+            <a data-cat='june' href='#'>June</a>
+          </li>
+          <li>
+            <a data-cat='july' href='#'>July</a>
+          </li>
+          <li class="current">
+            <a data-cat='august' href='#'>August</a>
+          </li>
+          <li>
+            <a data-cat='september' href='#'>September</a>
+          </li>
+          <li>
+            <a data-cat='october' href='#'>October</a>
+          </li>
+          <li>
+            <a data-cat='november' href='#'>November</a>
+          </li>
+          <li>
+            <a data-cat='december' href='#'>December</a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class='gallery large-block-grid-1'>
+
+      {% for sermon in page.sermon %}
+        <li class="{{ sermon.klass }}">
+          <div class='overlay'>
+            <div class='thumb-info'>
+              <div class="large-12 column text-center">
+              <h3>{{ sermon.title }}</h3>
+              <p>Date: {{ sermon.date }}</p>
+              <p>{{ sermon.summary }}</p>
+            </div>
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" src="{{ sermon.soundcloud }};color=429393&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+            <!-- End Sound Cloud Bit -->
+            <div class="barsound">
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+
+          <!-- <li class="{{ work.klass }}">
+            <a href='{{ work.link_to }}'>
+              <img alt="" src="{{ work.image }}" />
+              <div class='overlay'>
+                <div class='thumb-info'>
+                  <h3>{{ work.title }}</h3>
+                  <p>{{ work.summary }}</p>
+                </div>
+              </div>
+            </a>
+          </li> -->
+
+
+      </ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="half">
+  <div class="row">
+    <div class="medium-12 column text-center">
+      <h2><small>Don't see the one you're looking for?</small></h2>
+      <p class="text-center">Check our Soundcloud page for all of our sermons!</p>
+      <a href="https://soundcloud.com/christ-community-church-537270380" target="_blank" class="button tiny">Soundcloud</a>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>

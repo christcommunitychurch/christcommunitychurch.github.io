@@ -143,6 +143,7 @@
   border-top: 0;
   overflow: auto;
 }
+
 /*!
  * jQuery UI Tabs 1.10.3
  * http://jqueryui.com
@@ -911,7 +912,7 @@ ul.shortcode-list i {
   transition-duration: 0.2s;
 }
 
-.f-topbar-fixed.shrink .contain-to-grid {
+/*.f-topbar-fixed.shrink .contain-to-grid {
   height: 60px;
 }
 .f-topbar-fixed.shrink .top-bar {
@@ -946,8 +947,8 @@ ul.shortcode-list i {
   line-height: 60px;
 }
 .f-topbar-fixed.shrink .top-bar .title-area img, .f-topbar-fixed.shrink .top-bar .title-area li img, .f-topbar-fixed.shrink .top-bar .title-area a img {
-  width: 70%;
-}
+  width: 60%;
+}*/
 
 .contain-to-grid.fullwidth .top-bar {
   max-width: 100%;
@@ -3624,7 +3625,7 @@ body {
 .modTestimonials.simple .slick-slider {
   margin-bottom: 10px;
 }
-@media only screen and (max-width: 60em) {
+@media only screen and (max-width: 60em) { /* phone */
   .modTeamMember .overlay {
     opacity: 1;
     background-color: rgba(255, 255, 255, 0.8);
@@ -3670,7 +3671,7 @@ body {
     height: auto;
   }
   .contain-to-grid .title-area img, .contain-to-grid .title-area li img, .contain-to-grid .title-area a img {
-    width: auto;
+    width: 40%; /*ipad*/
   }
   .contain-to-grid .top-bar-section li:not(.has-form) a:not(.button) {
     height: 60px;
@@ -3744,14 +3745,18 @@ body {
   }
 
   /*The logo will not change to small size when in tablets, because the shrink effect will not work */
-  .f-topbar-fixed.shrink .top-bar .title-area a {
-    width: auto;
+  /*.f-topbar-fixed.shrink .top-bar .title-area a {
+    width: 90%;
   }
   .f-topbar-fixed.shrink .top-bar .title-area a img {
-    width: auto;
-  }
+    width: 60%;
+  }*/
 }
 @media only screen and (max-width: 767px) {
+  .contain-to-grid .title-area img, .contain-to-grid .title-area li img, .contain-to-grid .title-area a img {
+    width: 80%; /*new*/
+  }
+
   .modDefaultSlider .sequence .title h2 {
     font-size: 3.85714rem;
     line-height: 3.85714rem;
@@ -3789,6 +3794,7 @@ body {
   }
 }
 @media only screen and (max-width: 480px) {
+
   .modDefaultSlider .sequence .title h2 {
     font-size: 3.14286rem;
     line-height: 3.14286rem;
@@ -3848,3 +3854,14 @@ body {
     display: none;
   }
 }
+
+/*@media only screen and (min-width: 480px) {
+  .f-topbar-fixed.shrink .top-bar .title-area a {
+    width: 10%;
+    background: red;
+  }
+  .f-topbar-fixed.shrink .top-bar .title-area a img {
+    width: 100%;
+    background: red;
+  }
+}*/
