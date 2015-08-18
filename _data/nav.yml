@@ -7,14 +7,9 @@
 - name: Services
   path: services.html
   section_id: services
-# - name: Portfolio
-#   path: portfolio.html
-#   section_id: portfolio
-#   children:
-#     - name: Portfolio
-#       path: portfolio.html
-#     - name: Portfolio item
-#       path: portfolio-item.html
+- name: Sermons
+  path: portfolio.html
+  section_id: sermons
 - name: Blog
   path: blog/
   section_id: blog

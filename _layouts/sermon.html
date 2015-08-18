@@ -1,0 +1,84 @@
+---
+layout: default
+---
+
+<div class='full parallax' style='background-image: url(images/@stock/portfolio-header-bg.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Our Sermons" tagline="Listen to our Sermons" color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='mod modGallery'>
+      <div class='gallery-nav'>
+        <ul>
+          <li class='current'>
+            <a data-cat='all' href='#'>All</a>
+          </li>
+          <li>
+            <a data-cat='january' href='#'>January</a>
+          </li>
+          <li>
+            <a data-cat='feburary' href='#'>Feburary</a>
+          </li>
+          <li>
+            <a data-cat='march' href='#'>March</a>
+          </li>
+          <li>
+            <a data-cat='april' href='#'>April</a>
+          </li>
+          <li>
+            <a data-cat='may' href='#'>May</a>
+          </li>
+          <li>
+            <a data-cat='june' href='#'>June</a>
+          </li>
+          <li>
+            <a data-cat='july' href='#'>July</a>
+          </li>
+          <li>
+            <a data-cat='august' href='#'>August</a>
+          </li>
+          <li>
+            <a data-cat='september' href='#'>September</a>
+          </li>
+          <li>
+            <a data-cat='october' href='#'>October</a>
+          </li>
+          <li>
+            <a data-cat='november' href='#'>November</a>
+          </li>
+          <li>
+            <a data-cat='december' href='#'>December</a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class='gallery large-block-grid-4 medium-block-grid-3 small-block-grid-2'>
+
+      {{ content }}
+
+          <!-- <li class="{{ work.klass }}">
+            <a href='{{ work.link_to }}'>
+              <img alt="" src="{{ work.image }}" />
+              <div class='overlay'>
+                <div class='thumb-info'>
+                  <h3>{{ work.title }}</h3>
+                  <p>{{ work.desc }}</p>
+                </div>
+              </div>
+            </a>
+          </li> -->
+
+      </ul>
+
+    </div>
+  </div>
+
+  <div class='four spacing'></div>
+</div>

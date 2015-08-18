@@ -196,6 +196,10 @@
   padding: 1em 1.4em;
   background: none;
 }
+
+.pull-down {
+  margin-bottom: -10px;
+}
 /*!
  * jQuery UI CSS Framework 1.10.3
  * http://jqueryui.com
@@ -793,9 +797,20 @@ ul.shortcode-list i {
   background: none;
 }
 
+.button.boxed2 {
+  color: #000;
+  border: 1px solid #000;
+  background: none;
+  transition: all 1s ease;
+}
+
 .button.boxed:hover {
   color: #333;
   background: #fff;
+}
+
+.boxed2:hover {
+  border: 2px solid #000;
 }
 
 /*Top bar */
@@ -2951,6 +2966,12 @@ form input.error, form textarea.error {
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
+
+.barsound {
+  border-bottom: 1px solid #e8e8e8;
+  margin: 3em 0 3em 0;
+}
+
 .modGallery ul.gallery li a .overlay .thumb-info {
   top: 55%;
   position: relative;
@@ -2984,7 +3005,8 @@ form input.error, form textarea.error {
   transform: scale(1.1);
 }
 .modGallery ul.gallery li.hidden {
-  opacity: 0.1;
+  display: none;
+  /*was opacity: 0.1*/
 }
 .modGallery ul.gallery.seperated li {
   padding: 10px;

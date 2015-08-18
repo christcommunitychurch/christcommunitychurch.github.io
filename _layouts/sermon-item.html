@@ -1,0 +1,45 @@
+---
+layout: sermon
+title: Sermons
+section_id: sermon
+---
+
+{% for sermon in page.sermon %}
+  <div class='full'>
+    <!-- <div class='row'>
+      <div class='large-12 columns'>
+        <div class='mod modBoxedSlider'>
+          <div class='slides'>
+            <div class="slide">
+              <img alt="" src="{{ sermon.image }}">
+            </div>
+            <div class='slide'>
+              <img alt="" src="{{ sermon.image }}">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='spacing'></div> -->
+    <div class='row'>
+      <div class="large-12 column">
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="{{ sermon.soundcloud }};color=429393&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+      </div>
+      <div class='four spacing'></div>
+      <!-- End Sound Cloud Bit -->
+      <div class='large-8 columns'>
+        <h3>{{ sermon.title }}</h3>
+        <p>{{ sermon.summary }}</p>
+        <div class='spacing'></div>
+      </div>
+      <div class='large-4 columns'>
+        <ul class='info'>
+          <li>
+            <strong>Date:</strong>
+            {{ sermon.date }}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+{% endfor %}

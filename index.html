@@ -41,50 +41,11 @@ slides:
         - text: Learn More
           link_to: #
 
-
-
-works:
-  - image: images/@stock/work-1.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphi-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-2.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphi-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-3.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphi-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-4.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphi-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-5.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphi-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-6.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphi-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-7.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphi-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-8.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphi-design
-    desc: Design &amp; Development
-
+latest-sermon:
+  - title: Test Sermon
+    date: August 23, 2015
+    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quas esse praesentium quae non laborum sapiente.
+    soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/217310527&amp;
 
 services:
   - icon: trophy
@@ -201,33 +162,44 @@ milestones:
 <div class="full" style="background: #f5f5f5;">
   <div class="row">
     <div class="large-12 columns">
-      {% include section-header.html title="Our works" %}
+      {% include section-header.html title="Our Sermons" %}
       <div class="spacing"></div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-      </p>
-      <div class="three spacing"></div>
+      <p class="text-justify">We hope you take every opportunity to use oline sermons as a resource throughout your day,
+        week, month, and more. We truly believe that words have power and that the body of Christ
+        is strong in these words. Listen and be impowered by the words of our community. View our latest sermon
+        below! Updated every Sunday!</p>
+      <div class="large-12 column text-center"><br>
+        <a href="sermons.html"><div class="button small">See All Sermons</div></a><br><br>
+      </div>
+      <div class="two spacing"></div>
     </div>
   </div>
+</div>
 
+<div class="half" style="background: #5DA3A1; color: #fff;">
   <div class="mod modGallery">
-    <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-      {% for work in page.works %}
-        <li class="{{ work.klass }}">
-          <a href='{{ work.link_to }}'>
-            <img alt="" src="{{ work.image }}" />
-            <div class='overlay'>
-              <div class='thumb-info'>
-                <h3>{{ work.title }}</h3>
-                <p>{{ work.desc }}</p>
-              </div>
-            </div>
-          </a>
-        </li>
-      {% endfor %}
+    <ul class="gallery large-block-grid-1">
+      <div class="large-12 column text-center"><br>
+        <h2 class="subheader" style="color: #398888;">Our Latest Sermon</h2>
+      </div> <!--- end title -->
+      {% for sermon in page.latest-sermon %}
+      <li class="{{ sermon.klass }} pull-down">
+        <div class='overlay'>
+          <div class='thumb-info'>
+            <div class="large-12 column text-center">
+            <h3 class="subheader" style="color: #fff;">{{ sermon.title }} | {{ sermon.date }}</h3>
+            <!-- break --><div class="one spacing"></div>
+            <p>{{ sermon.summary }}</p>
+          </div>
+          <iframe width="100%" height="166" scrolling="no" frameborder="no" src="{{ sermon.soundcloud }};color=429393&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+          <!-- End Sound Cloud Bit -->
+          </div>
+        </div>
+      </li>
+        {% endfor %}
     </ul>
   </div>
-</div>
+</div> <!-- end full -->
 
 
 <div class='full'>
