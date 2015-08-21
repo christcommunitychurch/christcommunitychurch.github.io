@@ -18,7 +18,7 @@ section_id: contact
       <div class='medium-8 columns'>
         <div class='form'>
           <div class='row'>
-            <form id='contact_form' method='POST'>
+            <form id='contact_form' action="MAILTO:masonfox22@gmail.com" method='POST' enctype="text/plain">
               <div class='large-12 columns'>
                 <p id='thanks' style='display: none;'>
                   Thanks for contacting us, we'll be in touch soon!
@@ -29,7 +29,7 @@ section_id: contact
                 <input class='required email' name='email' placeholder='EMAIL' type='text'>
                 <input class='required' name='subject' placeholder='SUBJECT' type='text'>
                 <textarea class='required' name='message' placeholder='MESSAGE'></textarea>
-                <input class='button white' type='submit'>
+                <input class='button white' type='submit' value="send">
               </div>
             </form>
           </div>
