@@ -128,7 +128,7 @@
 
 
     <div id='main' role='main'>
-      <div class='full parallax' style='background-image: url(images/home/prayer.jpg); color: #fff;'>
+      <div class='full parallax' style='background: #5DA3A1; color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
       <div class="mod modSectionHeader big">
@@ -136,7 +136,7 @@
     <h2 style="color: #fff;">Contact Us</h2>
   </div>
   
-    <h3 class='centered-text' style='color: #fff'>Drop by or send an email to us</h3>
+    <h3 class='centered-text' style='color: #fff'>Need to talk? We're here.</h3>
   
 </div>
     </div>
@@ -147,9 +147,32 @@
   <div class='full'>
     <div class='row'>
       <div class='medium-8 columns'>
-        <div class='form'>
+        <h2>Contact Us!</h2>
+        <p>If you feel have something weighing on your heart,
+        a prayer request, or more, feel free to use the email
+        link that is available to the right to send us a message.</p>
+
+        <p>We will make our best attempt to be in contact with
+          you as soon as possible.</p>
+
+        <p>If you are in need of speaking with the Pastor as
+        soon as possible, utilize the phone number that is
+        listed to the right as well. Please be considerate
+        when using this number.</p>
+
+        <!--===== Deprecated Contact Form =======
+
+        Explanation: HTML forms cannot send/export data via the client, browsers deny it as a result
+        of the security threat it may impose (malicious stealing of email addresses). This feature will
+        not be accesible until we move away from Github hosting. The form requires PHP action to submit,
+        which is a server side language. Github hosting only supports hosting static websites. Adding
+        the PHP file would end the hosting from Github.
+
+        For now, we will leave the "mailto:" with the hyperlink to the CCC email.
+
+       <div class='form'>
           <div class='row'>
-            <form id='contact_form' method='POST'>
+            <form id='contact_form' action="MAILTO:masonfox22@gmail.com" method='POST' enctype="text/plain">
               <div class='large-12 columns'>
                 <p id='thanks' style='display: none;'>
                   Thanks for contacting us, we'll be in touch soon!
@@ -160,20 +183,23 @@
                 <input class='required email' name='email' placeholder='EMAIL' type='text'>
                 <input class='required' name='subject' placeholder='SUBJECT' type='text'>
                 <textarea class='required' name='message' placeholder='MESSAGE'></textarea>
-                <input class='button white' type='submit'>
+                <input class='button white' type='submit' value="send">
               </div>
             </form>
           </div>
         </div>
+
+        ===== End Deprecated Contact Form =======-->
+
         <div class='two spacing'></div>
       </div>
       <div class='medium-4 columns'>
         <div class='contact-details'>
-          <h4>Our location:</h4>
-          <p>20172 Co Rd X, Napoleon, OH 43545</p>
-          <h4>Our Phone:</h4>
+          <h4><i class="fa fa-map-marker"></i>  Our location:</h4>
+          <p>20172 Co Rd X, Ridgeville Corners, OH 43555</p>
+          <h4><i class="fa fa-phone"></i>  Our Phone:</h4>
           <p><a href="tel:+1-419-267-3858">(419) 267-3858</a></p>
-          <h4>Our Email:</h4>
+          <h4><i class="fa fa-envelope"></i>  Our Email:</h4>
           <p><a href="mailto:ccc.pastorchris@gmail.com" target="_top">CCC Email</a></p>
         </div>
       </div>
@@ -229,7 +255,7 @@
       <ul>
         <li>Phone: <a href="tel:+1-419-267-3858">(419) 267-3858</a></li>
         <li>Email: <a href="mailto:ccc.pastorchris@gmail.com" target="_top">CCC Email</a></li>
-        <li>Location: 20172 Co Rd X, Napoleon, OH 43545</li>
+        <li>Location: 20172 Co Rd X, Ridgeville Corners, OH 43555</li>
       </ul>
       <div class='spacing'></div>
       <ul class='socials'>
