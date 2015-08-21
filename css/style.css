@@ -10,6 +10,10 @@
   src: url('../fonts/steelfish/steelfish_bd-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/steelfish/steelfish_bd-webfont.woff') format('woff'), url('../fonts/steelfish/steelfish bd.otf') format('opentype');
   font-weight: bold;
 }
+
+p {
+  font-size: 17px;
+}
 /*!
  * jQuery UI CSS Framework 1.10.3
  * http://jqueryui.com
@@ -95,6 +99,11 @@
 
 /* Misc visuals
 ----------------------------------*/
+
+.mission:hover {
+  color: #398888;
+  cursor: default;
+}
 
 /* Overlays */
 .ui-widget-overlay {
