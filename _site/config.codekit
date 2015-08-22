@@ -912,46 +912,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/doc\/assets\/css\/documentation.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/doc\/assets\/css\/documentation.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/doc\/assets\/images\/banner.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 200104,
-		"inputAbbreviatedPath": "\/_site\/doc\/assets\/images\/banner.png",
-		"outputAbbreviatedPath": "\/_site\/doc\/assets\/images\/banner.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/doc\/assets\/js\/documentation.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/doc\/assets\/js\/documentation.js",
-		"outputAbbreviatedPath": "\/_site\/doc\/assets\/js\/min\/documentation-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_site\/doc\/documentation.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/doc\/documentation.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/images\/@stock\/105.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2965,6 +2925,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/images\/home\/launchsite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.12697e+06,
+		"inputAbbreviatedPath": "\/_site\/images\/home\/launchsite.png",
+		"outputAbbreviatedPath": "\/_site\/images\/home\/launchsite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/home\/mic.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2994,17 +2965,6 @@
 		"initialSize": 1.397e+06,
 		"inputAbbreviatedPath": "\/_site\/images\/home\/school.JPG",
 		"outputAbbreviatedPath": "\/_site\/images\/home\/school.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/home\/website.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3.04396e+06,
-		"inputAbbreviatedPath": "\/_site\/images\/home\/website.png",
-		"outputAbbreviatedPath": "\/_site\/images\/home\/website.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3161,15 +3121,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_site\/portfolio-item.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/portfolio-item.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/readme.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -3298,46 +3249,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/doc\/assets\/css\/documentation.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/doc\/assets\/css\/documentation.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/doc\/assets\/images\/banner.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 200104,
-		"inputAbbreviatedPath": "\/doc\/assets\/images\/banner.png",
-		"outputAbbreviatedPath": "\/doc\/assets\/images\/banner.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/doc\/assets\/js\/documentation.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/doc\/assets\/js\/documentation.js",
-		"outputAbbreviatedPath": "\/doc\/assets\/js\/min\/documentation-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/doc\/documentation.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/doc\/documentation.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -5355,6 +5266,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/home\/launchsite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.12697e+06,
+		"inputAbbreviatedPath": "\/images\/home\/launchsite.png",
+		"outputAbbreviatedPath": "\/images\/home\/launchsite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/home\/mic.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5384,17 +5306,6 @@
 		"initialSize": 1.397e+06,
 		"inputAbbreviatedPath": "\/images\/home\/school.JPG",
 		"outputAbbreviatedPath": "\/images\/home\/school.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/home\/website.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3.04396e+06,
-		"inputAbbreviatedPath": "\/images\/home\/website.png",
-		"outputAbbreviatedPath": "\/images\/home\/website.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5550,15 +5461,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/portfolio-item.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/portfolio-item.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/readme.md": {
 		"enableFootnoteSupport": 0,
