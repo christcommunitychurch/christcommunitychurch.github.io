@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 22 Aug 2015 17:19:31 -0400</pubDate>
-    <lastBuildDate>Sat, 22 Aug 2015 17:19:31 -0400</lastBuildDate>
+    <pubDate>Sun, 23 Aug 2015 00:27:53 -0400</pubDate>
+    <lastBuildDate>Sun, 23 Aug 2015 00:27:53 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -49,9 +49,29 @@
 &lt;li&gt;And more&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h5&gt;But I don&amp;#39;t have any experience!&lt;/h5&gt;
+&lt;h5&gt;But I don&amp;#39;t have any experience in coding!&lt;/h5&gt;
 
-&lt;p&gt;The beauty is that our website is written in a format that allows users who may not have experience with code the ability to get their hands wet. A majority of support of the website will be managing / updating content, but having someone take over the &lt;/p&gt;
+&lt;p&gt;The beauty of this project is that our website is written alongside a program that allows users who may not have experience with code the ability to get their hands wet! A majority of support of the website will be managing/updating content, but assistance with handling code would also be a plus.&lt;/p&gt;
+
+&lt;p&gt;You are welcome to join the team as long as your have a desire to learn and the dedication to this learning!&lt;/p&gt;
+
+&lt;h5&gt;Get Started! Jump Right In!&lt;/h5&gt;
+
+&lt;p&gt;Feel free to contact &lt;a href=&quot;mailto:cccwebtech@gmail.com&quot;&gt;cccwebtech@gmail.com&lt;/a&gt; if you are interested in contributing to the website! Once again, knowledge of web technologies is not required, but a desire to learn is!&lt;/p&gt;
+
+&lt;h5&gt;About the Website&lt;/h5&gt;
+
+&lt;p&gt;Some programs, frameworks, applications used during the construction of and development of the website uses:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;&lt;br&gt;
+  &lt;a href=&quot;http://foundation.zurb.com/&quot;&gt;Foundation&lt;/a&gt;&lt;br&gt;
+  &lt;a href=&quot;http://liquidmarkup.org/&quot;&gt;Liquid Templating&lt;/a&gt;&lt;br&gt;
+  &lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt;&lt;br&gt;
+  &lt;a href=&quot;http://www.git-tower.com/&quot;&gt;Tower&lt;/a&gt;&lt;br&gt;
+  &lt;a href=&quot;https://atom.io/&quot;&gt;Atom Editor&lt;/a&gt;&lt;br&gt;
+  &lt;a href=&quot;http://yeoman.io/&quot;&gt;Yeoman&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         <pubDate>Sun, 23 Aug 2015 06:25:00 -0400</pubDate>
         <link>/2015/08/23/Code-For-Christ.html</link>
