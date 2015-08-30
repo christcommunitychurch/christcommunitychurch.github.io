@@ -59,11 +59,11 @@ The only necessary changes that need to be changed are located in the front matt
 
 Elements in the front matter that need to be edited are:
 
->   - title: Example Title (The title of Sermon)
-    date: August 23, 2015 (The date of the Sermon, please keep Month Day, Year format)
-    summary: A sermon on the topic of Unity for our community (A very short summary of the message)
-    soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/220515139&amp;
-    klass: august (the month it is from, only put into the sermons.html page)
+>   - title: Example Title (The title of Sermon)<br>
+    date: August 23, 2015 (The date of the Sermon, please keep Month Day, Year format)<br>
+    summary: A sermon on the topic of Unity for our community (A very short summary of the message)<br>
+    soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/220515139&amp;<br>
+    klass: august (the month it is from, only put into the sermons.html page)<br>
 
 ###Explaining the Soundcloud API
 Below is the process of adding a Soundcloud file to the website:
@@ -89,12 +89,12 @@ Blog posts are handled fluidly by jekyll. Any file that is in the "posts" direct
 *  Add the correct front matter into the file. Below is an example:
 
 > ---
-  layout: post (it will **always** be a post)
-  title:  (The title of the post, typically the same as the file name)
-  date:   2015-08-23 10:30:00 (date and time)
-  images: images/home/launchsite.png (image files, should start with images/home/(your image file))
-  author: (Author of the Post)
-  excerpt: (The text that shows on the blog page that gives a short summary of the post)
+  layout: post (it will **always** be a post)<br>
+  title:  (The title of the post, typically the same as the file name)<br>
+  date:   2015-08-23 10:30:00 (date and time)<br>
+  images: images/home/launchsite.png (image files, should start with images/home/(your image file))<br>
+  author: (Author of the Post)<br>
+  excerpt: (The text that shows on the blog page that gives a short summary of the post)<br>
   ---
 
 *Make sure to add the front matter marks --- (content) ---*
