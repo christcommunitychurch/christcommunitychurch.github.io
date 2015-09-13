@@ -104,3 +104,5 @@ Blog posts are handled fluidly by jekyll. Any file that is in the "posts" direct
 
 ###Other Info
 *Please make detailed commits and summaries when working on large portions of code*
+
+Test pushing
