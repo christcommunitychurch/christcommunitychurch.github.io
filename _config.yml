@@ -12,5 +12,6 @@ github_username: masonfox
 
 # Build settings
 markdown: redcarpet
+gems: [jekyll-paginate]
 paginate: 3
 paginate_path: "blog/page:num"

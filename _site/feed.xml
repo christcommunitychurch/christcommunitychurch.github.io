@@ -6,9 +6,9 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Oct 2015 12:40:03 -0400</pubDate>
-    <lastBuildDate>Sun, 25 Oct 2015 12:40:03 -0400</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Sun, 08 Nov 2015 12:36:40 -0500</pubDate>
+    <lastBuildDate>Sun, 08 Nov 2015 12:36:40 -0500</lastBuildDate>
+    <generator>Jekyll v3.0.0</generator>
     
       <item>
         <title>Welcome to the New CCC Website!</title>
@@ -29,8 +29,8 @@
 &lt;p&gt;Understand that the website is still very early in development and will continue expanding through user interface and functionality. If you are interested in helping continue the development of the website, even if you do not consider yourself and expert, or even mediocre at web design, feel free to email &lt;a href=&quot;cccwebtech@gmail.com&quot;&gt;cccwebtech@gmail.com&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sun, 23 Aug 2015 06:30:00 -0400</pubDate>
-        <link>/2015/08/23/Welcome-to-the-New-CCC-Website!.html</link>
-        <guid isPermaLink="true">/2015/08/23/Welcome-to-the-New-CCC-Website!.html</guid>
+        <link>/2015/08/23/welcome-to-the-new-ccc-website.html</link>
+        <guid isPermaLink="true">/2015/08/23/welcome-to-the-new-ccc-website.html</guid>
         
         
       </item>
@@ -74,8 +74,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Sun, 23 Aug 2015 06:25:00 -0400</pubDate>
-        <link>/2015/08/23/Code-For-Christ.html</link>
-        <guid isPermaLink="true">/2015/08/23/Code-For-Christ.html</guid>
+        <link>/2015/08/23/code-for-christ.html</link>
+        <guid isPermaLink="true">/2015/08/23/code-for-christ.html</guid>
         
         
       </item>
